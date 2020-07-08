@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FBE4E4;
+}
+.headbar { 
+    background-color: #FFAFBD; 
+    height: 12vh;
+    width: 100vw;
+    font-size: 40px;
+} 
+#headbar1 {
+    color: white;
+    clear: both;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#emptyarea1 {
+    float:left;
+    width: 10%;
+    color: #FFAFBD;
+}
+#titlearea1 {
+    float:left;
+    text-align: center;
+    width: 80%;
+}
+#cogarea1 {
+    float:right;
+    text-align: right;
+    width: 10%;    
+}
+#headbar2 {
+    background-color: transparent; 
+    color: black;
+    margin: 20px;
+}
+.fa-cog {
+    font-size: 60px;
+}
+#headbar3 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    color: white;
+}
+.fa-arrow-left {
+    font-size: 60px;
+}
+.buttonarea {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.button {
+    height: 80px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: #FFAFBD;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;  
+    color: white; 
+}
+.button:hover {
+    background-color: transparent;
+}
+.button:before {
+    content: "i'm bored";
+}
+/* .button:after {
+    content: "i'm bored";
+} */
+.button:hover:before {
+    content: "yes";
+    color: black;
+}
+.timearea {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+p { 
+    font-family: 'Courier New', monospace;  
+} 
+.pointerarea {
+    height: 20vh;
+    width: 100vw;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.fa-hand-o-down {
+    font-size: 100px;
+    color: #FFAFBD;
+}
+.folderarea {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.fa-folder-o {
+    font-size: 230px;
+    color: #FFAFBD;
+}
+.fa-folder {
+    font-size: 230px;
+    color: #FFAFBD;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.reminderContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

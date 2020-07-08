@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I'm Bored - To do's App</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, initial-scale=1.0">
+</head>
+<body>
+    <div class="headbar" id="headbar3"> 
+        <i class="fa fa-arrow-left" aria-hidden="true" onclick="location.href='../html/mainpage.html'" type="button"></i>
+        <p>Box of ideas</p>
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <button id="btnNewReminder">New Reminder</button>
+    </div> 
+    <div class="remindersarea">
+        <div class="reminders">
+            <div class="reminders sub">
+                a
+            </div>
+        </div>
+        <div id="mdalReminder" class="modal">
+            <div class="reminderContent">
+                <span class="close">&times;</span> 
+                <label for="rmdTitle">Title: </label>
+                <input type="text" id="rmdTitle" name="rmdName"><br>
+                <label for="rmdMessage">Message: </label>
+                <input type="text" id="rmdMessage" name="rmdMessage"><br>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/9258049024.js" crossorigin="anonymous"></script>
+<script src="../js/reminders.js"></script>
+</html>
